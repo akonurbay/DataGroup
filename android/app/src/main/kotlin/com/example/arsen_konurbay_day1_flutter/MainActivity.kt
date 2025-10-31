@@ -1,0 +1,5 @@
+package com.example.arsen_konurbay_day1_flutter
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()

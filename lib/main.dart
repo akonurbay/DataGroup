@@ -36,6 +36,9 @@ class _MainAppState extends State<MainApp> {
           body: Center(
             child: Column(
               children: [
+                Container(
+                  decoration: BoxDecoration(shape: BoxShape.rectangle,color: Colors.grey),
+                  child: Text('Привет, Flutter!')),
                 ElevatedButton(
                   onPressed: () {
                     Navigator.push(
@@ -45,7 +48,7 @@ class _MainAppState extends State<MainApp> {
                       ),
                     );
                   },
-                  child: Text('to the secont screen '),
+                  child: Text('to the second screen '),
                 ),
                 Container(
                   width: MediaQuery.of(context).size.width * 0.9,
